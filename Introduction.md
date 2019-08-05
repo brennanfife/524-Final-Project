@@ -4,4 +4,7 @@ This report seeks to design an optimization model for an NBA team. Ever since th
 
 In our first model...
 
+
 In the second model...
+
+In both of these models, we first provide the mathamatical model we are using, then present the code. Finally, we provide additional results and remarks of how the model interprets the data, plus where the model could be improved.
