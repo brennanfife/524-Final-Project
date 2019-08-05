@@ -1,3 +1,3 @@
 # 524 Final Project
 
-[Imgur](https://imgur.com/2F0GewJ.png)
+![nba](https://oddslifenetstorage.blob.core.windows.net/sbcamericas/2018/07/NBAApp-Playoffs18-Roku-1200x628-e1533074794355.jpg)
