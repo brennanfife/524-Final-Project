@@ -20,7 +20,6 @@ In our first model, we look to maximize a team's winning percentage by selecting
 **Win Percentage: 69.4%**
 
 
-In the second model, we seek to maximize the sweet spot of each team by using tradeoff.
-Here, the data was sythetically generated.
+In the second model, we seek to maximize the sweet spot of each team by using tradeoff to select players based on the sweet spot distribution and the total amount of sweet of a lineup. Here, the data was synthetically generated with x, y coordinate depending on the player's position (e.g. center shooting near the rim while guards shoot 3-pointers). We have thirty players and pick up 5, with each lineup consisting of two guards, two forwards, and one center. The offensive area is only focused on halfcourt (the shooting area).
 
 In both of these models, we first provide the mathematical models and present the corresponding code. Then, we examine the results, provide data interpretation, remarks and limitations on the models, and any possible improvements that could be made on our models.
