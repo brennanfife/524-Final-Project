@@ -9,14 +9,13 @@ This report seeks to design optimization models around selecting NBA players for
 
 In our first model, we look to maximize a team's winning percentage by selecting players they would want. By using a player's offense rating and defense rating, plus the player's salary (provided by [basketball-reference.com](https://www.basketball-reference.com/contracts/)) we are able to provide various lineups for team's. In creating this model, we used Mixed Integer Linear Programming. Whereas linear programming maximizes (or minimizes) a linear objective function (subject to one or more constraints), mixed integer programming adds one additional condition that at least one of the variables can only take on integer values. Thus, giving us the decision to whether or not to choose a specific player based around other statistics. Here, we assumed each team consisted of 5 starters and 5 bench players, assigning two of them to each position. We then place our variables in the given objective function, which all data was taken from the 2018-2019 season (provided by [NBAstatstuffer.com](https://www.nbastuffer.com/2018-2019-nba-player-stats/)). 
 
-"\n",
-    "| Player         | Position | Team  | Projection | Salary | Ownerhsip |\n",
-    "| ---------------|----------| ------| ---------- | ------ | --------- |\n",
-    "| Tom Brady      | QB       | NE    | 10         | 4000   | 1         |\n",
-    "| Aaron Rodgers  | QB       | GB    | 5          | 2000   | 0         |\n",
-    "| Eddie Lacy     | RB       | GB    | 5          | 4000   | 0         |\n",
-    "| Marshawn Lynch | RB       | SEA   | 10         | 2000   | 1         |\n",
-    "\n",
+| Player                | Position | Off % | Def % |
+|-----------------------|----------|-------|-------|
+| Rudy Gobert           | C        | 133.8 | 96.7  |
+| Giannis Antetokounmpo | F        | 121.6 | 93.9  |
+| Derrick Favors        | F        | 124.5 | 98.1  |
+| James Harden          | G        | 118.6 | 103.5 |
+| Eric Bledsoe          | G        | 115.8 | 101.0 |
 
 
 In the second model uses tradeoff to The second one is based on maximizing the sweet spot of each team. Here, the data was sythetically generated.
