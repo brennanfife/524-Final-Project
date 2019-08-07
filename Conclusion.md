@@ -1,8 +1,4 @@
 Summarize your findings and your results, and talk about at least one possible future direction; something that might be interesting to pursue as a follow-up to your project.
 
 # Conclusion
-Our report provides two different models one could use to optimize an NBA basketball team. The first one is based on maximizing the winning percentage of a team, utilizing Mixed Integer Linear Programming. Here, we assumed each team consisted of 5 starters and 5 bench players, assigning two of them to each position. We then place our variables in the given objective function, which all data was taken from the 2018-2019 season.
-The second one is based on maximizing the sweet spot of each team.
-
-What we can do better in the future...
-- Getting real data with the x,y coordinates to match real world results.
+This report offers two separate models one could use to optimize a roster for an NBA basketball team. In the first model, by utilizing Mixed Integer Linear Programming, we looked at how one could maximize the team's winning percentage. This was based around the offensive efficiency rating, defensive efficiency rating, and budget of the 2018-2019 season. In the second model, we found how one could maximizing the sweet spot of each team using tradeoff between the sweet spot distribution and the total amount of sweet of a lineup. However, we could always improve our results, whether it be by using real (for x,y data) data or including other constraints such as injuries and existing team chemistry.
