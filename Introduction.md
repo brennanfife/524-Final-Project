@@ -17,7 +17,7 @@ In our first model, we look to maximize a team's winning percentage by selecting
 | James Harden          | G        | 118.6 | 103.5 |
 | Eric Bledsoe          | G        | 115.8 | 101.0 |
 
-Win Percentage: 69.4%
+**Win Percentage: 69.4%**
 
 
 In the second model uses tradeoff to The second one is based on maximizing the sweet spot of each team. Here, the data was sythetically generated.
