@@ -9,6 +9,6 @@ This report seeks to design optimization models around selecting NBA players for
 In our first model, we look to maximize a team's winning percentage by selecting players they would want. By using a player's offense and defense ratings, plus the player's salary (provided by [basketball-reference.com](https://www.basketball-reference.com/contracts/)). In creating this model, we used Mixed Integer Linear Programming. Here, we assumed each team consisted of 5 starters and 5 bench players, assigning two of them to each position. We then place our variables in the given objective function, which all data was taken from the 2018-2019 season (provided by [NBAstatstuffer.com](https://www.nbastuffer.com/2018-2019-nba-player-stats/)). 
 
 
-In the second model uses tradeoff to The second one is based on maximizing the sweet spot of each team.
+In the second model uses tradeoff to The second one is based on maximizing the sweet spot of each team. Here, the data was sythetically generated.
 
 In both of these models, we first provide the mathematical model we are using, then present the code. Finally, we provide additional results and remarks on how the model interprets the data, plus where the model could be improved.
