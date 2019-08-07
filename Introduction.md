@@ -22,4 +22,4 @@ Win Percentage: 69.4%
 
 In the second model uses tradeoff to The second one is based on maximizing the sweet spot of each team. Here, the data was sythetically generated.
 
-In both of these models, we first provide the mathematical model we are using, then present the code. Finally, we provide additional results and remarks on how the model interprets the data, plus where the model could be improved.
+In both of these models, we first provide the mathematical models and present the corresponding code. Then, we examine the results, provide data interpretation, remarks and limitations on the models, and any possible improvements that could be made on our models.
