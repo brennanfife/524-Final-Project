@@ -20,6 +20,7 @@ In our first model, we look to maximize a team's winning percentage by selecting
 **Win Percentage: 69.4%**
 
 
-In the second model uses tradeoff to The second one is based on maximizing the sweet spot of each team. Here, the data was sythetically generated.
+In the second model, we seek to maximize the sweet spot of each team by using tradeoff.
+Here, the data was sythetically generated.
 
 In both of these models, we first provide the mathematical models and present the corresponding code. Then, we examine the results, provide data interpretation, remarks and limitations on the models, and any possible improvements that could be made on our models.
