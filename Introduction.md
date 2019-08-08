@@ -9,18 +9,6 @@ This report seeks to design optimization models around selecting NBA players for
 
 In our first model, we look to maximize a team's winning percentage by selecting players they would want. Since team's defense rating (lower better) and offense rating(higher better) are two most common parameters that are used to evaulate the team's performace, we first match them with player's offense rating and defense rating and find the best relationship between player's offense rating and player's defense rating with winning percentage of the team. Then by using these two parameters, plus the player's salary (provided by [basketball-reference.com](https://www.basketball-reference.com/contracts/players.html)) we are able to provide various lineups for team's. In creating this model, we used linear program with binary variable. Whereas linear programming maximizes (or minimizes) a linear objective function (subject to one or more constraints), the binary variable adds one additional condition that players' selection can only be either 0, which means donot choose, or 1, which means is chosen. Thus, giving us the decision to whether or not to choose a specific player based around other statistics.Here, we assumed each team consisted of 5 starters and 5 bench players, assigning two of them to each position. We then place our variables in the given objective function, which all data was taken from the 2018-2019 season (provided by [NBAstatstuffer.com](https://www.nbastuffer.com/2018-2019-nba-player-stats/)). 
 
-(No need to show result, this should be in the solution and discussion section). Maybe you can give an example of the dataset we used, like what the sample has or just get rid of this table.
-
-| Player                | Position | Off % | Def % |
-|-----------------------|----------|-------|-------|
-| Rudy Gobert           | C        | 133.8 | 96.7  |
-| Giannis Antetokounmpo | F        | 121.6 | 93.9  |
-| Derrick Favors        | F        | 124.5 | 98.1  |
-| James Harden          | G        | 118.6 | 103.5 |
-| Eric Bledsoe          | G        | 115.8 | 101.0 |
-
-**Win Percentage: 69.4%**
-
 In the second model, we seek to maximize the sweet spot of each team by using tradeoff to select players based on the sweet spot distribution and the total amount of sweet of a lineup. Here, the data was synthetically generated with x, y coordinate depending on the player's position (e.g. center shooting near the rim while guards shoot 3-pointers). We have thirty players and pick up 5, with each lineup consisting of two guards, two forwards, and one center. The offensive area is only focused on halfcourt (the shooting area).
 
 In both of these models, we first provide the mathematical models and present the corresponding code. Then, we examine the results, provide data interpretation, remarks and limitations on the models, and any possible improvements that could be made on our models.
