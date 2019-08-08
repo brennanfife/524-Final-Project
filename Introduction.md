@@ -13,7 +13,7 @@ Since the 1940s, NBA teams have utilized specialized tools, statistics, and mode
 
 **Win Percentage: 69.4%**
 
-**In the second model**, we seek to maximize the sweet spot of each team by using tradeoff to select players based on the sweet spot distribution and the total amount of sweet of a lineup. Here, the data was synthetically generated with x, y coordinate depending on the player's position (e.g. center shooting near the rim while guards shoot 3-pointers). We have thirty players and pick up 5, with each lineup consisting of two guards, two forwards, and one center. The offensive area is only focused on halfcourt (the shooting area).
+**In the second model**, rather than using efficiency ratings, we apply a player's shooting 'sweet spot'. By utilizing tradeoff between the sweet spot distribution vs. the total sweet, we can calculate the optimal lineup a team can have on the court. In this model, we synthetically generated x, y coordinates, corresponding to halfcourt, accounted for a player's abilities (e.g., stars, rookies), and their positions (e.g., centers shoot near the rim, whereas guards shoot 3-pointers). From thirty players, we pick a lineup of 5 (two guards, two forwards, and a center). 
 
 [PICTURE OF NBA COURT AND/OR AN EXAMPLE OF THE CORRESPONDING TABLE FOR MODEL 2 (LIKE ABOVE) HERE]
 
