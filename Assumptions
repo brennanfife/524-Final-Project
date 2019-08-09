@@ -1,0 +1,4 @@
+5. In total, we use thirty players and generate the combinations of 5 players that have a center, two forwards, and two guards.
+6. Assumes that an optimal team consists of a team with equal opportunity to score in all areas of our 24x48 ft space
+7. Does not account for a team's defensive capacity, it simply holds preference for offensive balance
+8. The importance is on the zones, not the position of the points within the zones, though generally, that information could be found prevalent in an efficiency analysis
