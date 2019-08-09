@@ -1,4 +1,0 @@
-Summarize your findings and your results, and talk about at least one possible future direction; something that might be interesting to pursue as a follow-up to your project.
-
-# Conclusion
-This report offers two separate models one could take to optimize an NBA basketball roster. In the first model, through Mixed Integer Linear Programming, and using a player's efficiency ratings, salary, and salary caps, we looked at how one could maximize a team's winning percentage. In the second model, we found how one could maximize a lineup sweet spot by using tradeoffs between the sweet spot distribution and the total sweet lineup. However, we could always improve our results, whether by using real data (for x, y coordinates) or including other constraints, such as injuries or existing team chemistry.
